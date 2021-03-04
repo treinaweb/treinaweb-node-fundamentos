@@ -5,6 +5,4 @@ let Pessoa = {
         console.log('Andando...');
     }
 }
-exports.sobrenome = Pessoa.nome;
-
-console.log(module);
+module.exports = Pessoa;
